@@ -342,7 +342,17 @@ li a {
     color:#fff;
   
   }
-
+  .logojave{
+    width: 200px;
+    height: 75px;
+    margin-top: 0px;
+    color:#fff;
+    background-image: linear-gradient(45deg,#36ffee 30%,#3f5ae1 55%,#740b91 50%,#f23abe 70%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color:#fff;
+  
+  }
   .fondojave{
     color: #FFFFFF;
   }
@@ -351,6 +361,21 @@ li a {
     color:#fff;
     margin-top: 10px;
     font-size: 25px;
+  }
+  .ajustar{
+    position: absolute;
+    margin-top: 270px;
+    color:#fff;
+  }
+  .ajustar2{
+    position: absolute;
+    margin-top: 470px;
+    color:#fff;
+  }
+  .ajustar3{
+    position: absolute;
+    margin-top: 370px;
+    color:#fff;
   }
   .bordeInsc{
     margin-top: 150px;
@@ -428,6 +453,9 @@ li a {
     color:#fff;
   }
   .gale{
+    position: absolute;
+   
+    margin-top: -660px;
     color:#fff;
     background-image: linear-gradient(45deg,#36ffee 30%,#3f5ae1 55%,#740b91 50%,#f23abe 70%);
     -webkit-text-fill-color: transparent;
@@ -661,5 +689,67 @@ li a {
       font-size: 25px;
       margin-top: 20px;
   }
-  
+  /* estilos de las imagenes */
+
+  .slider{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%; 
+
+    animation:  cambio 20s infinite;                 
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+.slider ul li{
+    list-style: none;
+    width: 100%;
+ 
+
+}
+.slider ul li img{
+    width: 60%;
+    color: #FFFFFF;
+    border: 2px solid transparent;
+    background:
+    linear-gradient(90deg, rgba(3,1,69,1) 1%, rgba(61,9,121,1) 100%, rgba(0,212,255,1) 100%),
+    linear-gradient(to right, red , blue); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    margin-left: 255px;
+    margin-top: -0px;
+}
+@keyframes cambio {
+    0%{
+        margin-left: 0%;
+    }
+    20%{
+        margin-left: 0%;
+    }
+    25%{
+        margin-left: -100%;
+    }
+    45%{
+        margin-left: -100%;
+    }
+    50%{
+        margin-left: -200%;
+    }
+    70%{
+        margin-left: -200%;
+    }
+    75%{
+        margin-left: -300%;
+    }
+    100%{
+        margin-left: -300%;
+    }
+
+
+}
   
