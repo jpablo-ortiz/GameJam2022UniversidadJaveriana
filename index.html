@@ -3,20 +3,38 @@
 
 <head>
     <meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='script.js'></script>
+    <script src='app.js'></script>
+
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.css">
+
     <style>
-        .image1 {
+        .imageNavBar {
             position: absolute;
             width: 100%;
             height: 75px;
             left: 0px;
             top: 0px;
             /*Background a local image*/
-            background: url(./resources/images/image1.png) no-repeat;
+            background: url(./resources/images/navbar.png) no-repeat;
+            /* resize to fit de image background */
+            background-size: cover;
+        }
+
+        .imageFondoInicial {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0px;
+            top: 0px;
+            /*Background a local image*/
+            background: url(./resources/images/fondo_inicial.png) no-repeat;
             /* resize to fit de image background */
             background-size: cover;
         }
@@ -56,15 +74,44 @@
             padding-left: 20px;
             padding-right: 20px; 
         }
+
+        .back {
+            width: 100%;
+            height: 100%;
+            overflow-y: scroll;
+            background: #0F0B30;
+        }
     </style>
 </head>
 
-<body>
+<body class="back">
+
+    <main id="fullpage">
+		<header id="inicio" class="section">
+            <div class="imageFondoInicial">
+                <h1>GAME JAM</h1>
+            </div>
+		</header>
+		<section id="informacion" class="section">
+			<h1>INFORMACIÓN</h1>
+		</section>
+        <section id="invitados" class="section">
+            <h1>INVITADOS</h1>
+        </section>
+        <section id="galeria" class="section">
+            <h1>GALERÍA</h1>
+        </section>
+	</main>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.js"></script>
+	<script src="app.js"></script>
+
     <!-- Create a up navbar with an background image -->
-    <div class="image1">
+    <div class="imageNavBar">
         <div class="navbar-inner">
             <div class="container">
-                <ul class="nav">
+                <ul class="nav menu">
                     <li><a href="index.html">Información</a></li>
                     <li><a href="index.html">Invitados</a></li>
                     <li><a href="index.html">Galería</a></li>
@@ -72,6 +119,7 @@
             </div>
         </div>
     </div>
+
 </body>
 
 </html>
