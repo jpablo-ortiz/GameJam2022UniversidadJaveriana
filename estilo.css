@@ -847,9 +847,9 @@ li a {
 
   .tabla{
     margin-top: -120%;
-    margin-left: -750px;
-    margin-right: 40px;
-    font-size: 20px;
+    margin-left: -550px;
+    margin-right: 10px;
+    font-size: 16px;
     position: absolute;
     color: #fff;
     text-decoration: none;
@@ -1286,6 +1286,7 @@ li a {
   }
 
   .tabla{
+    
     margin-right: 0px;
     font-size: 10px;
     color: #fff;
