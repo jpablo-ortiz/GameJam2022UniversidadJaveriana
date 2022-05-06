@@ -564,8 +564,8 @@ li a {
   }
   .descripcionReto{
     position: absolute;
-    margin-top: 156%;
-    margin-left: -15%;
+    margin-top: 196%;
+    margin-left: -16%;
     color:#fff;
     background-image: linear-gradient(45deg,#36ffee 30%,#3f5ae1 55%,#740b91 50%,#f23abe 70%);
     -webkit-text-fill-color: transparent;
@@ -574,7 +574,7 @@ li a {
 
   .ajustar4{
     position: absolute;
-    margin-top: 160%;
+    margin-top: 200%;
     margin-left: -30%;
     margin-right: 20%;
     text-align: center;
@@ -583,7 +583,7 @@ li a {
   }
 
   .descripcionDiv{
-    margin-top: -155%;
+    margin-top: -170%;
   }
   .bordeInsc{
     margin-top: 150px;
