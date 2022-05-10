@@ -554,8 +554,9 @@ li a {
   }
   .ajustar2{
     position: absolute;
-    margin-top: 580px;
+    margin-top: 595px;
     color:#fff;
+    text-align: center;
   }
   .ajustar3{
     position: absolute;
